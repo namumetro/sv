@@ -45,8 +45,8 @@ a{text-decoration: none; color: #000000; display: inline-block; padding: 10px 20
 	width: 100%;
 	top: 80px;
 	left: -0px;
+        margin:0;padding:0;
 }
-
 header {
 	width:100%;
 	height:80px;
@@ -100,7 +100,6 @@ header{
     animation: left-to-right 1s cubic-bezier(0.215, 0.610, 0.355, 1.000) alternate both;
 }
 body{margin:0;padding:0;}
-hr{margin:0;padding:0;}
 @keyframes left-to-right{
     0%{
         left:-100vw;
