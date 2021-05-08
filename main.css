@@ -54,6 +54,8 @@ header {
 	display: flex;
 	align-items: center;
 	justify-content: space-between;
+        -webkit-animation: left-to-right 1s cubic-bezier(0.215, 0.610, 0.355, 1.000) alternate both;
+        animation: left-to-right 1s cubic-bezier(0.215, 0.610, 0.355, 1.000) alternate both;
 }
 
 header > h2 {
