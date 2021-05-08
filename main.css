@@ -89,3 +89,13 @@ header ul > li {
 .link4::after{display: block; content: attr(title); font-weight: bold; transition: all 0.5s;}
 .link4:hover::before{transform: translateY(-40px);}
 .link4:hover::after{transform: translateY(-40px);}
+
+header{
+    position:relative;
+    height:60px;
+    background: url("1.png");
+    margin:0;
+    padding:0;
+    -webkit-animation: left-to-right 1s cubic-bezier(0.215, 0.610, 0.355, 1.000) alternate both;
+    animation: left-to-right 1s cubic-bezier(0.215, 0.610, 0.355, 1.000) alternate both;
+}
